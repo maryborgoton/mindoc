@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Credits and Acknowledgments
-number: 008
+title: Supplements
+number: 010 
 ---
 
 # Credits and Acknowledgments
