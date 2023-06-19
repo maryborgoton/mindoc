@@ -4,7 +4,7 @@
       {% assign images = {{include.pages}} %}
       {% for image in images %}
         <div class="container">
-            <img src="{{ site.baseurl }}{{ image._path }}" class="page_image">
+            <img src="{{ site.baseurl }}{% link {{ image._path }} %}" class="page_image">
             <div>
                 <div class="media_tabs">
                   <a href="{{ site.baseurl }}{{ image.url }}"><button class="media_tab">Description</button></a>
