@@ -16,8 +16,8 @@ Maecenas faucibus, mauris vitae imperdiet fermentum, turpis dolor dignissim ipsu
 Sed vulputate, massa id cursus vehicula, ipsum leo elementum ex, in lacinia ligula ipsum porttitor felis. Nulla facilisi. Morbi sit amet elit eget ipsum condimentum aliquet quis vel neque. Proin suscipit rhoncus porta. Maecenas feugiat ullamcorper eros, a mattis quam consectetur quis. Proin pharetra ante tellus, eu gravida neque accumsan vitae. Etiam eu mauris a ipsum vehicula interdum ut at libero.
 
 <!-- {% assign intro_images = site.mindoc_images | sort:"order" | where: "page", "introduction" %} -->
-{% assign intro_images = site.mindoc_images | sort:"order" | where_exp: "item", "item.page == 'introduction' and item.order != '03'" %}
-{% include image.html pages=intro_images %}
+<!-- {% assign intro_images = site.mindoc_images | sort:"order" | where_exp: "item", "item.page == 'introduction' and item.order != '03'" %}
+{% include image.html pages=intro_images %} -->
 
 Suspendisse fermentum nunc in scelerisque euismod. Donec velit arcu, facilisis nec vehicula sit amet, hendrerit in lorem. Quisque vestibulum posuere turpis, nec sagittis elit tincidunt eu. Vivamus id dolor in tortor consequat gravida vitae vel mi. Nullam eleifend mi velit, sed fermentum arcu egestas aliquet. Phasellus eget rhoncus lectus, eget sollicitudin enim. Nullam consectetur lorem sed urna aliquet posuere. In hac habitasse platea dictumst. Aliquam nec condimentum dui. Ut at augue pellentesque, tincidunt mi eget, blandit ante. Proin pellentesque urna id molestie pretium. Nullam elementum dui nibh. Curabitur eu neque aliquet, commodo elit lobortis, hendrerit dolor. Cras nec pulvinar orci. Aenean rhoncus eleifend justo, ut volutpat velit semper et. Aenean at odio et eros bibendum volutpat sed in lectus.
 
@@ -25,5 +25,5 @@ Maecenas faucibus, mauris vitae imperdiet fermentum, turpis dolor dignissim ipsu
 
 Sed vulputate, massa id cursus vehicula, ipsum leo elementum ex, in lacinia ligula ipsum porttitor felis. Nulla facilisi. Morbi sit amet elit eget ipsum condimentum aliquet quis vel neque. Proin suscipit rhoncus porta. Maecenas feugiat ullamcorper eros, a mattis quam consectetur quis. Proin pharetra ante tellus, eu gravida neque accumsan vitae. Etiam eu mauris a ipsum vehicula interdum ut at libero.
 
-{% assign intro_images = site.mindoc_images | sort:"order" | where_exp: "item", "item.page == 'introduction' and item.order == '03'" %}
-{% include image.html pages=intro_images %}
+<!-- {% assign intro_images = site.mindoc_images | sort:"order" | where_exp: "item", "item.page == 'introduction' and item.order == '03'" %}
+{% include image.html pages=intro_images %} -->
