@@ -1,0 +1,17 @@
+
+<main class="main-wrap">
+    <div class="content-wrapper">
+      {% assign images = {{include.pages}} %}
+      {% for image in images %}
+        <div class="container">
+            <img src="{{ site.url }}{{ image._path }}" class="page_image">
+            <div>
+                <div class="media_tabs">
+                  <a href="{{ image.url }}"><button class="media_tab">Description</button></a>
+                </div>
+            </div>
+        </div>
+    
+        {% endfor %}
+    </div>
+</main>

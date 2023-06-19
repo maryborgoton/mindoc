@@ -1,0 +1,25 @@
+---
+layout: default
+---
+  <body>
+    <div class="img_description">
+      <div class="image">
+        <img src="{{ page._path }}">
+      </div>
+      <div class="text">
+        <h1>{{ page._title }}</h1>
+          <p>{{ page.description }}</p>
+          <p>Creator: {{ page.creator }}</p>
+          <p>Date: {{ page._date }}</p>
+          <p>{{ page.rights }}</p>
+          <p>Type: {{ page.type }}</p>
+          <p>Source: {{ page.source }}</p>
+          <p>{{ page.identifier }}</p>
+          <p>{{ page.contributor }}</p>
+          <p>{{ page.format }}</p>
+          <p>{{ page.credit_IPTC }}</p>
+          <p>{{ page.date_created_IPTC }}</p>
+      </div>
+    </div>
+  </body>
+</html>
