@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About SourceLab
+title: About Sourcelab
 number: 009
 ---
 
-# About SourceLab
+# About Sourcelab
