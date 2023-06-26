@@ -4,7 +4,12 @@ layout: default
   <body>
     <div class="img_description">
       <div class="image">
-        <img src="{{ site.baseurl }}{{ page._path }}">
+        {% if page.media_type == 'image' %}
+        <img src="{% if page._path contains 'assets' %} {{ site.baseurl }}{{ page._path }} {% else %} {{ page._path }} {% endif %}">
+        {% else %}
+        <iframe
+        src="{% if page._path contains 'assets' %} {{ page.baseurl }}{{ page._path }} {% else %} {{ page._path }} {% endif %}" class="page_image"></iframe>
+        {% endif %}
       </div>
       <div class="text">
         <h1>{{ page._title }}</h1>

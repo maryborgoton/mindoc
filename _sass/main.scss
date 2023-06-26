@@ -21,9 +21,10 @@ header {
 
 .title_card {
   font-family: "Oswald"; 
-  position: absolute;
+  // display: block;
+  // position: absolute;
   bottom: 0;
-  padding: 12.8rem 7.2rem 3.6rem 7.2rem;
+  padding: 26.8rem 7.2rem 3.6rem 7.2rem;
   text-align: center;
 }
 
@@ -272,6 +273,13 @@ img {
   max-height:100%;
 }
 
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  height: 315px;
+}
 //   Footer
   
 #footer {

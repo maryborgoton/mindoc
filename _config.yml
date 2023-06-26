@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
 
 collections:
-  mindoc_images:
+  mindoc_media:
     output: true
     layout: 'image_description'
 
