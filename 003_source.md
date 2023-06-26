@@ -11,20 +11,6 @@ MY WONDEFUL SOURCES
 
 
 
-{% assign pages = site.pages | where_exp: "item", "item.title" | where_exp: "item", "item.title != 'Search'" %}
-
-{% assign collections = site.mindoc_images %}
-
-{% assign pagesAndPosts = pages | concat: collections %}
-
-{% for pageAndPost in pagesAndPosts %}
-    {% for text in pagesAndPosts %}
-    {{ text.url | jsonify }}
-    {% endfor %}
-{% endfor %}
-
-
-
 
 
 
