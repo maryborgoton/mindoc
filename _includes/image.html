@@ -6,8 +6,11 @@
         <div class="container">
             <img src="{{ site.baseurl }}{{ image._path }}" class="page_image">
             <div>
-                <div class="media_tabs">
-                  <a href="{{ site.baseurl }}{{ image.url }}"><button class="media_tab">Description</button></a>
+                <div class="description-wrapper">
+                  <p>Title: {{ image._title }}<br>
+                  Creator: {{ image.creator }}<br>
+                  Date: {{ image._date }}</p>
+                  <a href="{{ site.baseurl }}{{ image.url }}"><button class="description_btn">Detailed description</button></a>
                 </div>
             </div>
         </div>
