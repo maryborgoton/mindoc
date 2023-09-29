@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Sourcelab
-number: 08
+number: 8
 ---
 
 # About Sourcelab
