@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Great Project
-number: 001
+number: 003
 ---
 # Introduction
 
