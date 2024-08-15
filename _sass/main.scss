@@ -1,6 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
+// HERE ARE THE STYLISTIC PARAMETER THAT CAN BE CHANGED MANUALLY TO CUSTOMIZE THE WEBSITE
+
+// Title page
+
+.header_main{
+  color: white; // to change the font color on the title page
+  font-family: "Times" // to change the font of the title page
+}
+
+h1.header_main{
+  font-size: 60px; // to change the size of the font of the title
+}
+
+h2.header_main{
+  font-size: 36px; // to change the size of the font of the sub-title
+}
+
+#btn {
+  color:white; // to change the color of the button "Start with Intro"
+  font-family: "Times"; // to change the font of the button "Start with Intro"
+}
+
+.description_btn{
+  font-family: "Calibri"; // to change the font of the description button
+  color: green; // to change the color of the description button
+}
+
+// Side navigation bar
+
+.sidenav a {
+	font-family: "Times"; // to change the font of the side nabigation bar
+}
+
+
+// Main content and links
+
+p {
+  font-family: "Times"; // to change the font of the text
+  font-weight: 200;
+  font-size: 21px;
+}
+
+a {
+  color:Blue; // to change the color of the links
+  text-decoration: none !important;
+}
+
+h1{
+	font-family: "Times"; // to change the font of the big headlines
+}
+
+h2{
+	font-family: "Calibri"; // to change the font of the medium headlines
+}
+
+h3{
+	font-family: "Monospaced"; // to change the font of the small headlines
+}
+
+span {
+  font-family: "Calibri"; // to change the font of the title/creator/date lines
+  font-weight: 400;
+}
+
+body, html {
+	background-color: Yellow; // to change the website background
+}
+
+#search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Calibri"; // to change the font of the search
+  color:#9E2207;  // to change the color of the search
+  font-size: 21px;
+  width: 100%;
+  height: 50px;
+}
+
+	
+
+// THE REST OF THE PARAMETERS THAT SHOULD NOT BE TOUCHED
 // Basic
 
 body, html {
@@ -9,18 +90,10 @@ body, html {
 }
 
 
-// Header
-
-header {
-  font-family: "Calibri"; 
-  text-align: center;
-  padding: 15px;
-}
-
 // home page
 
 .title_card {
-  font-family: "Calibri"; 
+  font-family: "Oswald"; 
   // display: block;
   // position: absolute;
   bottom: 0;
@@ -28,17 +101,14 @@ header {
   text-align: center;
 }
 
-.header_main{
-  color: white;
+// Header
+
+header {
+  text-align: center;
+  padding-top: 15px;
+  background-color: white;
 }
 
-h1.header_main{
-  font-size: 60px;
-}
-
-h2.header_main{
-  font-size: 36px;
-}
 
 // Navigation
   
@@ -112,9 +182,6 @@ button:hover {
   background-color: rgba(245, 246, 252, 0.52);
 }
 
-#btn {
-  color:white
-}
 
 // Search
 
@@ -126,19 +193,10 @@ button:hover {
   padding-right: 30px;
 }
 
-#search {
-  border: 1px solid grey;
-  border-radius: 5px;
-  font-family: "Oswald";
-  color:#476345; 
-  font-size: 21px;
-  width: 100%;
-  height: 50px;
-}
 
 ::placeholder {
 	
-  color:#476345;
+  color:#9E2207;
   font-size: 110%;
   padding-right: 200px;
   outline: none !important; 
@@ -148,23 +206,13 @@ button:hover {
 
 // Content
 
-p {
-  font-family: "Oswald";
-  font-size: 21px;
-}
-
 .search_result{
   font-size: 24px;
   font-style: italic;
 }
 
-h1 {
-  font-family: "Oswald";
-}
-
-a {
-  color:#476345;
-  font-family: "Oswald";  
+a.header {
+  color:#9E2207;
   text-decoration: none !important;
 }
 
@@ -173,9 +221,10 @@ a {
   }
 
 .content {
-  margin-left:20%;
-  margin-right:20%;
-  padding-bottom: 100px;
+  margin-left:17%;
+  margin-right:17%;
+  padding: 100px;
+  background-color:  white;
 }
 
 // Image
@@ -196,8 +245,7 @@ img.page_image{
 }
 
 .container{
-  height: 500px;
-  margin-bottom:150px;
+  height: auto;
 }
 
 .main-wrap {
@@ -242,11 +290,9 @@ img.page_image{
 // }
 
 .description_btn{
-  font-family: "Oswald";
   font-size: 25px;
   cursor: pointer;
-  background-color: transparent;
-  color:#476345;  
+  background-color: transparent; 
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -285,8 +331,8 @@ iframe {
 #footer {
     font-family: "Oswald"; 
     font-size: 12px; 
-    color: #476345;
-    padding: 10px;
+    color: #9E2207;
+    margin-left: 24%;
     position: absolute;
     bottom: 0;
     // background-color: #dbd8d3;
