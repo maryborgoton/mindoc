@@ -38,9 +38,10 @@ h2.header_main{
 // Main content and links
 
 p {
-  font-family: "Times"; // to change the font of the text
-  font-weight: 200;
-  font-size: 21px;
+  font-family: "Oswald"; // to change the font of the text
+  font-weight: 200; // to change the thickness of a typeface's strokes
+  font-size: 30px; // to change the size of the font
+  color: 87CEEB; // we changed the color of the paragraph
 }
 
 a {
