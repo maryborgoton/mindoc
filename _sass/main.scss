@@ -7,7 +7,7 @@
 
 .header_main{
   color: white; // to change the font color on the title page
-  font-family: "Times" // to change the font of the title page
+  font-family: "Montserrat" // to change the font of the title page
 }
 
 h1.header_main{
@@ -20,18 +20,18 @@ h2.header_main{
 
 #btn {
   color:white; // to change the color of the button "Start with Intro"
-  font-family: "Times"; // to change the font of the button "Start with Intro"
+  font-family: "Montserrat"; // to change the font of the button "Start with Intro"
 }
 
 .description_btn{
-  font-family: "Calibri"; // to change the font of the description button
+  font-family: "Oswald"; // to change the font of the description button
   color: green; // to change the color of the description button
 }
 
 // Side navigation bar
 
 .sidenav a {
-	font-family: "Times"; // to change the font of the side nabigation bar
+	font-family: "Montserrat"; // to change the font of the side nabigation bar
 }
 
 
@@ -50,11 +50,11 @@ a {
 }
 
 h1{
-	font-family: "Times"; // to change the font of the big headlines
+	font-family: "Montserrat"; // to change the font of the big headlines
 }
 
 h2{
-	font-family: "Calibri"; // to change the font of the medium headlines
+	font-family: "Oswald"; // to change the font of the medium headlines
 }
 
 h3{
@@ -62,18 +62,18 @@ h3{
 }
 
 span {
-  font-family: "Calibri"; // to change the font of the title/creator/date lines
+  font-family: "Oswald"; // to change the font of the title/creator/date lines
   font-weight: 400;
 }
 
 body, html {
-	background-color: Yellow; // to change the website background
+	background-color: #97bd97; // to change the website background
 }
 
 #search {
   border: 1px solid grey;
   border-radius: 5px;
-  font-family: "Calibri"; // to change the font of the search
+  font-family: "Oswald"; // to change the font of the search
   color:#9E2207;  // to change the color of the search
   font-size: 21px;
   width: 100%;
